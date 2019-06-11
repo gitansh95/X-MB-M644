@@ -1,0 +1,10 @@
+Chapters
+---------
+
+0. Hardware requirements
+1. Installing the software toolchain
+2. Burning the bootloader
+3. Hello World - Blinky
+4. Taking input through switches
+5. Interfacing an LCD
+6. Communication via USB
