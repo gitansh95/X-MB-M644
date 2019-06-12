@@ -1,7 +1,7 @@
+#define F_CPU 18432000UL
+
 #include <avr/io.h>
 #include <util/delay.h>
-
-#define F_CPU 18432000UL
 
 // DDR = Data Direction Register
 // 1   = Output
