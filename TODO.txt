@@ -1,10 +1,43 @@
+References
+----------
+
+1. AVR GCC documentation : http://nongnu.org/avr-libc/user-manual/
+2. GNU Make User Manual : https://www.gnu.org/software/make/manual/make.html
+
 Chapters
 ---------
 
 0. Hardware requirements
-1. Installing the software toolchain
+
+1. Building the toolchain
+	- gcc-avr (gcc compiler for avr targets)
+	- binutils-avr (as, ld, objcopy, objdump)
+	- avr-libc (Standard C and AVR specific functions)
+	- avrdude (burns the final executable on the microcontroller)
+	- Make (software builder)
+	- Debuggers and emulators : gdb-avr, DDD, Insight, Avarice
+
 2. Burning the bootloader
+
 3. Hello World - Blinky
-4. Taking input through switches
-5. Interfacing an LCD
-6. Communication via USB
+	- Linking, Assembling, Compiling (Why ihex?)
+	- Flashing the EEPROM
+	- Creating Makefiles
+
+4. GPIO
+
+5. Timer
+
+6. Interrupts
+
+7. Interfacing an LCD
+
+8. UART : Communication via USB
+
+9. I2C
+
+10. SPI
+
+11. Writing in assembly (Why and how?)
+
+12. Object oriented? C++?
